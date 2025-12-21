@@ -4,6 +4,11 @@ pipeline {
         stage('Push File') {
             steps {
             echo "Hello Jenkins" 
+stage(the file has been commited'){
+steps{
+echo "again some file has been changed"
+}
+}
         }
     }
 }
