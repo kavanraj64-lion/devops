@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+    stages {
+        stage('Push File') {
+            steps {
+            echo "Hello Jenkins" 
+        }
+    }
+}
